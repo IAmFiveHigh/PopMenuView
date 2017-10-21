@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2012B50635264C1B4AEDB2D6 /* Pods_PopMenuView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A006FBB8F1A622300DE1B /* Pods_PopMenuView.framework */; };
+		35663C2C1F9B3A2D00782C79 /* 朋友圈.png in Resources */ = {isa = PBXBuildFile; fileRef = 35663C281F9B3A2D00782C79 /* 朋友圈.png */; };
+		35663C2D1F9B3A2D00782C79 /* 微信.png in Resources */ = {isa = PBXBuildFile; fileRef = 35663C291F9B3A2D00782C79 /* 微信.png */; };
+		35663C2E1F9B3A2D00782C79 /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 35663C2A1F9B3A2D00782C79 /* QQ.png */; };
+		35663C2F1F9B3A2D00782C79 /* QQ空间.png in Resources */ = {isa = PBXBuildFile; fileRef = 35663C2B1F9B3A2D00782C79 /* QQ空间.png */; };
+		35663C311F9B3B0800782C79 /* 空的.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35663C301F9B3B0800782C79 /* 空的.jpg */; };
 		46A665DC1F98F7DA00AB5816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A665DB1F98F7DA00AB5816 /* AppDelegate.swift */; };
 		46A665DE1F98F7DA00AB5816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A665DD1F98F7DA00AB5816 /* ViewController.swift */; };
 		46A665E11F98F7DA00AB5816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A665DF1F98F7DA00AB5816 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1804803CFE1B62E1DBBBCC /* Pods-PopMenuView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView.release.xcconfig"; sourceTree = "<group>"; };
+		35663C281F9B3A2D00782C79 /* 朋友圈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈.png"; sourceTree = "<group>"; };
+		35663C291F9B3A2D00782C79 /* 微信.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信.png"; sourceTree = "<group>"; };
+		35663C2A1F9B3A2D00782C79 /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
+		35663C2B1F9B3A2D00782C79 /* QQ空间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ空间.png"; sourceTree = "<group>"; };
+		35663C301F9B3B0800782C79 /* 空的.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "空的.jpg"; sourceTree = "<group>"; };
 		46A665D81F98F7DA00AB5816 /* PopMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A665DB1F98F7DA00AB5816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46A665DD1F98F7DA00AB5816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		46A665E21F98F7DA00AB5816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A665E51F98F7DA00AB5816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46A665E71F98F7DA00AB5816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19A006FBB8F1A622300DE1B /* Pods_PopMenuView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopMenuView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA79949BDEA096DFA3C4AEA7 /* Pods-PopMenuView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2012B50635264C1B4AEDB2D6 /* Pods_PopMenuView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21FF8AD48D84539A87C2489B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA79949BDEA096DFA3C4AEA7 /* Pods-PopMenuView.debug.xcconfig */,
+				1A1804803CFE1B62E1DBBBCC /* Pods-PopMenuView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		46A665CF1F98F7DA00AB5816 = {
 			isa = PBXGroup;
 			children = (
+				35663C301F9B3B0800782C79 /* 空的.jpg */,
+				35663C281F9B3A2D00782C79 /* 朋友圈.png */,
+				35663C291F9B3A2D00782C79 /* 微信.png */,
+				35663C2A1F9B3A2D00782C79 /* QQ.png */,
+				35663C2B1F9B3A2D00782C79 /* QQ空间.png */,
 				46A665DA1F98F7DA00AB5816 /* PopMenuView */,
 				46A665D91F98F7DA00AB5816 /* Products */,
+				21FF8AD48D84539A87C2489B /* Pods */,
+				9543A0CC6B6A55C83F71678F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +95,14 @@
 			path = PopMenuView;
 			sourceTree = "<group>";
 		};
+		9543A0CC6B6A55C83F71678F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19A006FBB8F1A622300DE1B /* Pods_PopMenuView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46A665EA1F98F7DA00AB5816 /* Build configuration list for PBXNativeTarget "PopMenuView" */;
 			buildPhases = (
+				C3A4D6834EE52C07ED49CD0D /* [CP] Check Pods Manifest.lock */,
 				46A665D41F98F7DA00AB5816 /* Sources */,
 				46A665D51F98F7DA00AB5816 /* Frameworks */,
 				46A665D61F98F7DA00AB5816 /* Resources */,
+				BC9A4F126DD51FD0E9C39F76 /* [CP] Embed Pods Frameworks */,
+				993A2B413E2F638FC213E6AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +166,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35663C2D1F9B3A2D00782C79 /* 微信.png in Resources */,
+				35663C2E1F9B3A2D00782C79 /* QQ.png in Resources */,
+				35663C2C1F9B3A2D00782C79 /* 朋友圈.png in Resources */,
+				35663C311F9B3B0800782C79 /* 空的.jpg in Resources */,
 				46A665E61F98F7DA00AB5816 /* LaunchScreen.storyboard in Resources */,
 				46A665E31F98F7DA00AB5816 /* Assets.xcassets in Resources */,
 				46A665E11F98F7DA00AB5816 /* Main.storyboard in Resources */,
+				35663C2F1F9B3A2D00782C79 /* QQ空间.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		993A2B413E2F638FC213E6AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC9A4F126DD51FD0E9C39F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A4D6834EE52C07ED49CD0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46A665D41F98F7DA00AB5816 /* Sources */ = {
@@ -259,6 +354,7 @@
 		};
 		46A665EB1F98F7DA00AB5816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA79949BDEA096DFA3C4AEA7 /* Pods-PopMenuView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VP672269SN;
@@ -272,6 +368,7 @@
 		};
 		46A665EC1F98F7DA00AB5816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1804803CFE1B62E1DBBBCC /* Pods-PopMenuView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VP672269SN;
@@ -302,6 +399,7 @@
 				46A665EC1F98F7DA00AB5816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
